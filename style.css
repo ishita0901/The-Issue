@@ -1,13 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=PT+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Hind+Madurai:wght@300&family=M+PLUS+1+Code:wght@200&family=PT+Serif&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+  }
 body{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 95px;
+    padding-left: 160px;
 }
 h1{
-    color: black;
-    font-family: 'PT Serif', serif;
-    text-align: center;
-    font-size: 60px;
+    margin: 29px 0px;
+}
+.myimage{
+    display: flex;
+    float: right;
+}
+.text{
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    float: left;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0 100px 0 100px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+hr{
+     margin-bottom: 40px;
+}    
+.row{
+    display: flex;
+}
+.column{
+    flex: 33.33%;
+    padding: 10px 40px 0px 150px;
 }
 p{
-    color: #fff;
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
+
+
