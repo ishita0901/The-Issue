@@ -3,59 +3,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Hind+Madurai:wght@300&family=M+PLUS+1+Code:wght@200&family=PT+Serif&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 * {
-    box-sizing: border-box;
-  }
-body{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+	box-sizing: border-box;
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right: 95px;
-    padding-left: 160px;
+body {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 }
-h1{
-    margin: 29px 0px;
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 95px;
+	padding-left: 160px;
 }
-.myimage{
-    display: flex;
-    float: right;
+h1 {
+	margin: 29px 0px;
 }
-.text{
-    color: rgb(0, 0, 0);
-    font-family:'Times New Roman', Times, serif;
-    font-size: 40px;
-    float: left;
+.myimage {
+	display: flex;
+	float: right;
 }
-nav ul li{
-    list-style-type: none;
-    padding: 0 100px 0 100px;
+.text {
+	color: rgb(0, 0, 0);
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 40px;
+	float: left;
 }
-ul{
-    display: flex;
-    justify-content: center;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    }
-hr{
-     margin-bottom: 40px;
-}    
-.row{
-    display: flex;
+nav ul li {
+	list-style-type: none;
+	padding: 0 100px 0 100px;
 }
-.column{
-    flex: 33.33%;
-    padding: 10px 40px 0px 150px;
+nav ul li a {
+	text-decoration: none;
+	color: #000;
 }
-p{
-    text-align: center;
-    margin: 20px 0px;
-    font-size: 30px;
-    font-family: 'Open Sans Condensed', sans-serif;
+ul {
+	display: flex;
+	justify-content: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-right: 40px;
 }
-
-
+hr {
+	margin-bottom: 20px;
+}
+.row {
+	display: flex;
+}
+.column {
+	flex: 33.33%;
+	padding: 10px 10px 0px 50px;
+}
+.row .column img {
+	width: 85%;
+}
+p {
+	text-align: center;
+	margin: 20px 0px;
+	font-size: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 1000;
+}
